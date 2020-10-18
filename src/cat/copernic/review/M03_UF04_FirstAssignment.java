@@ -30,6 +30,10 @@ public class M03_UF04_FirstAssignment {
         Barco barco2 = new PortaAviones(35, new Motor(6000), 250, 75, 46, 60_000, 35);
         barco2.arranca();
         
+        Barco barco3 = new Petroleros(10000, 20, new Motor(8000),300 , 120, 4000, 230);
+        
+        Barco barco4 = new Portacontenedores(1200, 90, new Motor(5000), 260, 80, 3500, 160);
+        
         System.out.println(barco1 instanceof PortaAviones);
         
         
