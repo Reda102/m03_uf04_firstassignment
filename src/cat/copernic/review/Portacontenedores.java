@@ -18,16 +18,16 @@ public class Portacontenedores extends BarcoDeMercancias {
         this.contenedores = contenedores;
     }
 
-   
-      @Override
-    public void arranca() {
-        // ...
-        System.out.println("Arrancando Portacontenedores...");
+    @Override
+    public void atraca() {
+        super.atraca(); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void atraca() {
-        // ...
-        System.out.println("Atracando Portacontenedores...");
+    public void arranca() {
+        super.arranca(); //To change body of generated methods, choose Tools | Templates.
     }
+
+   
+   
 }

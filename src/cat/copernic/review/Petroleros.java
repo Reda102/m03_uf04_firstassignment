@@ -18,17 +18,23 @@ public class Petroleros extends BarcoDeMercancias {
         this.cisterna = cisterna;
     }
 
-   
-    
-      @Override
-    public void arranca() {
-        // ...
-        System.out.println("Arrancando Petrolero...");
+    @Override
+    public void abandonenElBarco() {
+        super.abandonenElBarco(); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Abandonen usando protocolo enboscada... ");
     }
 
     @Override
     public void atraca() {
-        // ...
-        System.out.println("Atracando Petrolero...");
+        super.atraca(); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public void arranca() {
+        super.arranca(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+    
+   
 }
